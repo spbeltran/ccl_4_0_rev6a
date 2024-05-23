@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone=no>
+<MiniHostInitialization>
+
+<Config>
+<Host_Addr>127.0.0.1</Host_Addr>
+<Port_To_IG>8015</Port_To_IG>
+<Port_To_Host>8014</Port_To_Host>
+<Hertz_rate>60</Hertz_rate>
+</Config>
+
+</MiniHostInitialization>

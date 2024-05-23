@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugMT|x64">
+      <Configuration>DebugMT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugMT|Win32">
+      <Configuration>DebugMT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseMT|x64">
+      <Configuration>ReleaseMT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseMT|Win32">
+      <Configuration>ReleaseMT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\DefaultProc.h" />
+    <ClInclude Include="..\source\Network.h" />
+    <ClInclude Include="..\source\XAccelerationCtrl.h" />
+    <ClInclude Include="..\source\XAnimationCtrl.h" />
+    <ClInclude Include="..\source\XArtPartCtrl.h" />
+    <ClInclude Include="..\source\XAtmosCtrl.h" />
+    <ClInclude Include="..\source\XCelestialCtrl.h" />
+    <ClInclude Include="..\source\XCollDetSegDef.h" />
+    <ClInclude Include="..\source\XCollDetVolDef.h" />
+    <ClInclude Include="..\source\XCompCtrl.h" />
+    <ClInclude Include="..\source\XConfClampEntityCtrl.h" />
+    <ClInclude Include="..\source\XEarthModelDef.h" />
+    <ClInclude Include="..\source\XEntityCtrl.h" />
+    <ClInclude Include="..\source\XEntityPositionCtrl.h" />
+    <ClInclude Include="..\source\XEnvCondReq.h" />
+    <ClInclude Include="..\source\XEnvRgnCtrl.h" />
+    <ClInclude Include="..\source\XEventNotification.h" />
+    <ClInclude Include="..\source\XHatHotReq.h" />
+    <ClInclude Include="..\source\XIGCtrl.h" />
+    <ClInclude Include="..\source\XLosSegReq.h" />
+    <ClInclude Include="..\source\XLosVectReq.h" />
+    <ClInclude Include="..\source\XMaritimeSurfaceCtrl.h" />
+    <ClInclude Include="..\source\XMotionTrackCtrl.h" />
+    <ClInclude Include="..\source\XPositionReq.h" />
+    <ClInclude Include="..\source\XRateCtrl.h" />
+    <ClInclude Include="..\source\XSensorCtrl.h" />
+    <ClInclude Include="..\source\XShortArtPartCtrl.h" />
+    <ClInclude Include="..\source\XShortCompCtrl.h" />
+    <ClInclude Include="..\source\XShortSymbolCtrlV4.h" />
+    <ClInclude Include="..\source\XSymbolCircleDefV4.h" />
+    <ClInclude Include="..\source\XSymbolCloneV4.h" />
+    <ClInclude Include="..\source\XSymbolCtrlV4.h" />
+    <ClInclude Include="..\source\XSymbolPolygonDefV4.h" />
+    <ClInclude Include="..\source\XSymbolSurfaceDefV4.h" />
+    <ClInclude Include="..\source\XSymbolTextDefV4.h" />
+    <ClInclude Include="..\source\XSymbolTexturedCircleDefV4.h" />
+    <ClInclude Include="..\source\XSymbolTexturedPolygonDefV4.h" />
+    <ClInclude Include="..\source\XTerrestrialSurfaceCtrl.h" />
+    <ClInclude Include="..\source\XTrajectory.h" />
+    <ClInclude Include="..\source\XVelocityCtrl.h" />
+    <ClInclude Include="..\source\XViewCtrl.h" />
+    <ClInclude Include="..\source\XViewDef.h" />
+    <ClInclude Include="..\source\XWaveCtrl.h" />
+    <ClInclude Include="..\source\XWeatherCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\DefaultProc.cpp" />
+    <ClCompile Include="..\source\DummyIG.cpp" />
+    <ClCompile Include="..\source\Network.cpp" />
+    <ClCompile Include="..\source\XAccelerationCtrl.cpp" />
+    <ClCompile Include="..\source\XAnimationCtrl.cpp" />
+    <ClCompile Include="..\source\XArtPartCtrl.cpp" />
+    <ClCompile Include="..\source\XAtmosCtrl.cpp" />
+    <ClCompile Include="..\source\XCelestialCtrl.cpp" />
+    <ClCompile Include="..\source\XCollDetSegDef.cpp" />
+    <ClCompile Include="..\source\XCollDetVolDef.cpp" />
+    <ClCompile Include="..\source\XCompCtrl.cpp" />
+    <ClCompile Include="..\source\XConfClampEntityCtrl.cpp" />
+    <ClCompile Include="..\source\XEarthModelDef.cpp" />
+    <ClCompile Include="..\source\XEntityCtrl.cpp" />
+    <ClCompile Include="..\source\XEntityPositionCtrl.cpp" />
+    <ClCompile Include="..\source\XEnvCondReq.cpp" />
+    <ClCompile Include="..\source\XEnvRgnCtrl.cpp" />
+    <ClCompile Include="..\source\XEventNotification.cpp" />
+    <ClCompile Include="..\source\XHatHotReq.cpp" />
+    <ClCompile Include="..\source\XIGCtrl.cpp" />
+    <ClCompile Include="..\source\XLosSegReq.cpp" />
+    <ClCompile Include="..\source\XLosVectReq.cpp" />
+    <ClCompile Include="..\source\XMaritimeSurfaceCtrl.cpp" />
+    <ClCompile Include="..\source\XMotionTrackCtrl.cpp" />
+    <ClCompile Include="..\source\XPositionReq.cpp" />
+    <ClCompile Include="..\source\XRateCtrl.cpp" />
+    <ClCompile Include="..\source\XSensorCtrl.cpp" />
+    <ClCompile Include="..\source\XShortArtPartCtrl.cpp" />
+    <ClCompile Include="..\source\XShortCompCtrl.cpp" />
+    <ClCompile Include="..\source\XShortSymbolCtrlV4.cpp" />
+    <ClCompile Include="..\source\XSymbolCircleDefV4.cpp" />
+    <ClCompile Include="..\source\XSymbolCloneV4.cpp" />
+    <ClCompile Include="..\source\XSymbolCtrlV4.cpp" />
+    <ClCompile Include="..\source\XSymbolPolygonDefV4.cpp" />
+    <ClCompile Include="..\source\XSymbolSurfaceDefV4.cpp" />
+    <ClCompile Include="..\source\XSymbolTextDefV4.cpp" />
+    <ClCompile Include="..\source\XSymbolTexturedCircleDefV4.cpp" />
+    <ClCompile Include="..\source\XSymbolTexturedPolygonDefV4.cpp" />
+    <ClCompile Include="..\source\XTerrestrialSurfaceCtrl.cpp" />
+    <ClCompile Include="..\source\XTrajectory.cpp" />
+    <ClCompile Include="..\source\XVelocityCtrl.cpp" />
+    <ClCompile Include="..\source\XViewCtrl.cpp" />
+    <ClCompile Include="..\source\XViewDef.cpp" />
+    <ClCompile Include="..\source\XWaveCtrl.cpp" />
+    <ClCompile Include="..\source\XWeatherCtrl.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC172A11-CFFB-4DC9-AB96-3E0DA19E5B10}</ProjectGuid>
+    <SccProjectName />
+    <SccLocalPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugMT|Win32'">.\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugMT|x64'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugMT|Win32'">temp\DebugMT\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugMT|x64'">x64\DebugMT\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugMT|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugMT|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|Win32'">.\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|x64'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|Win32'">Temp\ReleaseMT\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|x64'">x64\ReleaseMT\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='DebugMT|Win32'">$(ProjectName)D</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='DebugMT|x64'">$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugMT|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\source;..\..\tinyxml\vc10\source;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ccl_libD.lib;tinyxmlSTLD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>CigiDummyIGD.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\bin\libDebugMT;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/CigiDummyIG.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Debug/CigiDummyIG.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugMT|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\source;..\..\tinyxml\vc10;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ccl_libD.lib;tinyxmlD_STL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>CigiDummyIGD.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\bin\libDebugMT;..\..\tinyxml\vc10\Debug_STL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/CigiDummyIG.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Debug/CigiDummyIG.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\source;..\..\tinyxml\source;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ccl_lib.lib;tinyxml_STL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>CigiDummyIG.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\bin\libReleaseMT;..\..\tinyxml\vc10\Release_STL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/CigiDummyIG.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Release/CigiDummyIG.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\source;..\..\tinyxml\source;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wsock32.lib;ccl_lib.lib;tinyxml_STL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>CigiDummyIG.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\bin\libReleaseMT;..\..\tinyxml\vc10\Release_STL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/CigiDummyIG.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Release/CigiDummyIG.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|Win32'">
+    <ClCompile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|x64'">
+    <ClCompile>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|Win32'">
+    <ClCompile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseMT|x64'">
+    <ClCompile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

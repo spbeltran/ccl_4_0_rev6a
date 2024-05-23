@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ccl_lib", "ccl_lib.vcxproj", "{C0B88FB5-7583-4546-A898-70821569969A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		libDebugMD|Win32 = libDebugMD|Win32
+		libDebugMD|x64 = libDebugMD|x64
+		libDebugMT|Win32 = libDebugMT|Win32
+		libDebugMT|x64 = libDebugMT|x64
+		libReleaseMD|Win32 = libReleaseMD|Win32
+		libReleaseMD|x64 = libReleaseMD|x64
+		libReleaseMT|Win32 = libReleaseMT|Win32
+		libReleaseMT|x64 = libReleaseMT|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMD|Win32.ActiveCfg = libDebugMD|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMD|Win32.Build.0 = libDebugMD|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMD|x64.ActiveCfg = libDebugMD|x64
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMD|x64.Build.0 = libDebugMD|x64
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMT|Win32.ActiveCfg = libDebugMT|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMT|Win32.Build.0 = libDebugMT|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMT|x64.ActiveCfg = libDebugMT|x64
+		{C0B88FB5-7583-4546-A898-70821569969A}.libDebugMT|x64.Build.0 = libDebugMT|x64
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMD|Win32.ActiveCfg = libReleaseMD|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMD|Win32.Build.0 = libReleaseMD|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMD|x64.ActiveCfg = libReleaseMD|x64
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMD|x64.Build.0 = libReleaseMD|x64
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMT|Win32.ActiveCfg = libReleaseMT|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMT|Win32.Build.0 = libReleaseMT|Win32
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMT|x64.ActiveCfg = libReleaseMT|x64
+		{C0B88FB5-7583-4546-A898-70821569969A}.libReleaseMT|x64.Build.0 = libReleaseMT|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

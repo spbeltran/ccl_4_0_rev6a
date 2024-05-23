@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="libDebugMD|Win32">
+      <Configuration>libDebugMD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="libDebugMD|x64">
+      <Configuration>libDebugMD</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="libDebugMT|Win32">
+      <Configuration>libDebugMT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="libDebugMT|x64">
+      <Configuration>libDebugMT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="libReleaseMD|Win32">
+      <Configuration>libReleaseMD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="libReleaseMD|x64">
+      <Configuration>libReleaseMD</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="libReleaseMT|Win32">
+      <Configuration>libReleaseMT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="libReleaseMT|x64">
+      <Configuration>libReleaseMT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\CigiBaseAerosolResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseAnimationCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseArtPartCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseCircleSymbolData.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseCircleSymbolTextureData.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseCollDetSegDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseCollDetSegResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseCollDetVolDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseCollDetVolResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseConfClampEntityCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseEarthModelDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseEntityCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseEntityPositionCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseEnvCondReq.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseEnvCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseEnvRgnCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseEventNotification.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseHatHotReq.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseIGCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseLosResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseLosSegReq.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseLosVectReq.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseMaritimeSurfaceCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseMaritimeSurfaceResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseMotionTrackCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBasePositionReq.cpp" />
+    <ClCompile Include="..\..\source\CigiBasePositionResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSensorCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSensorResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseShortArtPartCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseShortSymbolCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSOF.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSpecEffDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolCircleDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolClone.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolLineDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolSurfaceDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolTextDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolTexturedCircleDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseSymbolTexturedPolygonDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseTerrestrialSurfaceCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseTrajectoryDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseViewCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseViewDef.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseWaveCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseWeatherCondResp.cpp" />
+    <ClCompile Include="..\..\source\CigiBaseWeatherCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiAnimationTable.cpp" />
+    <ClCompile Include="..\..\source\CigiIGSession.cpp" />
+    <ClCompile Include="..\..\source\CigiIncomingMsg.cpp" />
+    <ClCompile Include="..\..\source\CigiIO.cpp" />
+    <ClCompile Include="..\..\source\CigiSession.cpp" />
+    <ClCompile Include="..\..\source\CigiSwapping.cpp" />
+    <ClCompile Include="..\..\source\CigiArtPartCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegDefV1.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegRespV1.cpp" />
+    <ClCompile Include="..\..\source\CigiCompCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiEntityCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiEnvCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiHatReqV1.cpp" />
+    <ClCompile Include="..\..\source\CigiHatRespV1.cpp" />
+    <ClCompile Include="..\..\source\CigiIGCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiLosRespV1.cpp" />
+    <ClCompile Include="..\..\source\CigiLosSegReqV1.cpp" />
+    <ClCompile Include="..\..\source\CigiLosVectReqV1.cpp" />
+    <ClCompile Include="..\..\source\CigiRateCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorRespV1.cpp" />
+    <ClCompile Include="..\..\source\CigiSOFV1.cpp" />
+    <ClCompile Include="..\..\source\CigiSpecEffDefV1.cpp" />
+    <ClCompile Include="..\..\source\CigiTrajectoryDefV1.cpp" />
+    <ClCompile Include="..\..\source\CigiViewCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiViewDefV1.cpp" />
+    <ClCompile Include="..\..\source\CigiWeatherCtrlV1.cpp" />
+    <ClCompile Include="..\..\source\CigiArtPartCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegDefV2.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegRespV2.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetVolDefV2.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetVolRespV2.cpp" />
+    <ClCompile Include="..\..\source\CigiCompCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiEntityCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiEnvCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiHatReqV2.cpp" />
+    <ClCompile Include="..\..\source\CigiHatRespV2.cpp" />
+    <ClCompile Include="..\..\source\CigiHotReqV2.cpp" />
+    <ClCompile Include="..\..\source\CigiHotRespV2.cpp" />
+    <ClCompile Include="..\..\source\CigiIGCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiIGMsgV2.cpp" />
+    <ClCompile Include="..\..\source\CigiLosRespV2.cpp" />
+    <ClCompile Include="..\..\source\CigiLosSegReqV2.cpp" />
+    <ClCompile Include="..\..\source\CigiLosVectReqV2.cpp" />
+    <ClCompile Include="..\..\source\CigiRateCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorRespV2.cpp" />
+    <ClCompile Include="..\..\source\CigiSOFV2.cpp" />
+    <ClCompile Include="..\..\source\CigiSpecEffDefV2.cpp" />
+    <ClCompile Include="..\..\source\CigiTrajectoryDefV2.cpp" />
+    <ClCompile Include="..\..\source\CigiViewCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiViewDefV2.cpp" />
+    <ClCompile Include="..\..\source\CigiWeatherCtrlV2.cpp" />
+    <ClCompile Include="..\..\source\CigiAerosolRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiAnimationStopV3.cpp" />
+    <ClCompile Include="..\..\source\CigiArtPartCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiAtmosCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiCelestialCtrl.cpp" />
+    <ClCompile Include="..\..\source\CigiCircleSymbolDataV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegDefV3.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetVolDefV3.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetVolRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiCompCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiCompCtrlV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiConfClampEntityCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiDefaultPacket.cpp" />
+    <ClCompile Include="..\..\source\CigiEarthModelDefV3.cpp" />
+    <ClCompile Include="..\..\source\CigiEntityCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiEntityCtrlV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiEnvCondReqV3.cpp" />
+    <ClCompile Include="..\..\source\CigiEnvRgnCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiEventNotificationV3.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotReqV3.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotReqV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotRespV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotXRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotXRespV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiHostSession.cpp" />
+    <ClCompile Include="..\..\source\CigiIGCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiIGCtrlV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiIGCtrlV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiIGMsgV3.cpp" />
+    <ClCompile Include="..\..\source\CigiLosRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiLosRespV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiLosSegReqV3.cpp" />
+    <ClCompile Include="..\..\source\CigiLosSegReqV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiLosVectReqV3.cpp" />
+    <ClCompile Include="..\..\source\CigiLosVectReqV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiLosXRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiLosXRespV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiMaritimeSurfaceCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiMaritimeSurfaceRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiMessage.cpp" />
+    <ClCompile Include="..\..\source\CigiMotionTrackCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiOutgoingMsg.cpp" />
+    <ClCompile Include="..\..\source\CigiPositionReqV3.cpp" />
+    <ClCompile Include="..\..\source\CigiPositionRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiRateCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiRateCtrlV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorXRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiShortArtPartCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiShortCompCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiShortCompCtrlV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiShortSymbolCtrlV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiSOFV3.cpp" />
+    <ClCompile Include="..\..\source\CigiSOFV3_2.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolCircleDefV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolCloneV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolCtrlV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolLineDefV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolSurfaceDefV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolTextDefV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiTerrestrialSurfaceCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiTerrestrialSurfaceRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiTrajectoryDefV3.cpp" />
+    <ClCompile Include="..\..\source\CigiVertexSymbolDataV3_3.cpp" />
+    <ClCompile Include="..\..\source\CigiViewCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiViewDefV3.cpp" />
+    <ClCompile Include="..\..\source\CigiWaveCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiWeatherCondRespV3.cpp" />
+    <ClCompile Include="..\..\source\CigiWeatherCtrlV3.cpp" />
+    <ClCompile Include="..\..\source\CigiAccelerationCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiAerosolRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiAnimationCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiAnimationStopV4.cpp" />
+    <ClCompile Include="..\..\source\CigiArtPartCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiAtmosCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCelestialCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCircleSymbolDataV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCircleSymbolTextureDataV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetSegRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetVolDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCollDetVolRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiCompCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiConfClampEntityCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiEarthModelDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiEntityCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiEntityPositionCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiEnvCondReqV4.cpp" />
+    <ClCompile Include="..\..\source\CigiEnvRgnCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiEventNotificationV4.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotReqV4.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiHatHotXRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiIGCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiIGMsgV4.cpp" />
+    <ClCompile Include="..\..\source\CigiLosRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiLosSegReqV4.cpp" />
+    <ClCompile Include="..\..\source\CigiLosVectReqV4.cpp" />
+    <ClCompile Include="..\..\source\CigiLosXRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiMaritimeSurfaceCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiMaritimeSurfaceRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiMotionTrackCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiPositionReqV4.cpp" />
+    <ClCompile Include="..\..\source\CigiPositionRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSensorXRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiShortArtPartCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiShortCompCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiShortSymbolCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSOFV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolCircleDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolCloneV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolPolygonDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolSurfaceDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolTextDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolTexturedCircleDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiSymbolTexturedPolygonDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiTerrestrialSurfaceCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiTerrestrialSurfaceRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiVelocityCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiVertexSymbolDataV4.cpp" />
+    <ClCompile Include="..\..\source\CigiVertexSymbolTextureDataV4.cpp" />
+    <ClCompile Include="..\..\source\CigiViewCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiViewDefV4.cpp" />
+    <ClCompile Include="..\..\source\CigiWaveCtrlV4.cpp" />
+    <ClCompile Include="..\..\source\CigiWeatherCondRespV4.cpp" />
+    <ClCompile Include="..\..\source\CigiWeatherCtrlV4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\CigiBaseAccelerationCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseAerosolResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseAnimationCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseAnimationStop.h" />
+    <ClInclude Include="..\..\include\CigiBaseArtPartCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseCircleSymbolData.h" />
+    <ClInclude Include="..\..\include\CigiBaseCircleSymbolTextureData.h" />
+    <ClInclude Include="..\..\include\CigiBaseCollDetSegDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseCollDetSegResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseCollDetVolDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseCollDetVolResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseCompCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseConfClampEntityCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseEarthModelDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseEntityCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseEntityPositionCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseEnvCondReq.h" />
+    <ClInclude Include="..\..\include\CigiBaseEnvCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseEnvRgnCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseEventNotification.h" />
+    <ClInclude Include="..\..\include\CigiBaseEventProcessor.h" />
+    <ClInclude Include="..\..\include\CigiBaseHatHotReq.h" />
+    <ClInclude Include="..\..\include\CigiBaseHatHotResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseIGCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseIGMsg.h" />
+    <ClInclude Include="..\..\include\CigiBaseLosResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseLosSegReq.h" />
+    <ClInclude Include="..\..\include\CigiBaseLosVectReq.h" />
+    <ClInclude Include="..\..\include\CigiBaseMaritimeSurfaceCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseMaritimeSurfaceResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseMotionTrackCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBasePacket.h" />
+    <ClInclude Include="..\..\include\CigiBasePositionReq.h" />
+    <ClInclude Include="..\..\include\CigiBasePositionResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseRateCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseSensorCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseSensorResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseShortArtPartCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseShortSymbolCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseSignalProcessing.h" />
+    <ClInclude Include="..\..\include\CigiBaseSOF.h" />
+    <ClInclude Include="..\..\include\CigiBaseSpecEffDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolCircleDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolClone.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolLineDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolPolygonDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolSurfaceDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolTextDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolTexturedCircleDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseSymbolTexturedPolygonDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseTerrestrialSurfaceCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseTerrestrialSurfaceResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseTrajectoryDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseVariableSizePckt.h" />
+    <ClInclude Include="..\..\include\CigiBaseVelocityCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseVertexSymbolData.h" />
+    <ClInclude Include="..\..\include\CigiBaseViewCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseViewDef.h" />
+    <ClInclude Include="..\..\include\CigiBaseWaveCtrl.h" />
+    <ClInclude Include="..\..\include\CigiBaseWeatherCondResp.h" />
+    <ClInclude Include="..\..\include\CigiBaseWeatherCtrl.h" />
+    <ClInclude Include="..\..\include\CigiAllPackets.h" />
+    <ClInclude Include="..\..\include\CigiAnimationTable.h" />
+    <ClInclude Include="..\..\include\CigiCnvtInfoType.h" />
+    <ClInclude Include="..\..\include\CigiDefaultPacket.h" />
+    <ClInclude Include="..\..\include\CigiErrorCodes.h" />
+    <ClInclude Include="..\..\include\CigiException.h" />
+    <ClInclude Include="..\..\include\CigiExceptions.h" />
+    <ClInclude Include="..\..\include\CigiHostSession.h" />
+    <ClInclude Include="..\..\include\CigiIGSession.h" />
+    <ClInclude Include="..\..\include\CigiIncomingMsg.h" />
+    <ClInclude Include="..\..\include\CigiIO.h" />
+    <ClInclude Include="..\..\include\CigiMessage.h" />
+    <ClInclude Include="..\..\include\CigiMessageBuffer.h" />
+    <ClInclude Include="..\..\include\CigiOutgoingMsg.h" />
+    <ClInclude Include="..\..\include\CigiProcessType.h" />
+    <ClInclude Include="..\..\include\CigiSession.h" />
+    <ClInclude Include="..\..\include\CigiSignalType.h" />
+    <ClInclude Include="..\..\include\CigiSwapping.h" />
+    <ClInclude Include="..\..\include\CigiTypes.h" />
+    <ClInclude Include="..\..\include\CigiTypes_Default.h" />
+    <ClInclude Include="..\..\include\CigiVersionID.h" />
+    <ClInclude Include="..\..\include\CigiArtPartCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegDefV1.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegRespV1.h" />
+    <ClInclude Include="..\..\include\CigiCompCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiEntityCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiEnvCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiHatReqV1.h" />
+    <ClInclude Include="..\..\include\CigiHatRespV1.h" />
+    <ClInclude Include="..\..\include\CigiIGCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiLosRespV1.h" />
+    <ClInclude Include="..\..\include\CigiLosSegReqV1.h" />
+    <ClInclude Include="..\..\include\CigiLosVectReqV1.h" />
+    <ClInclude Include="..\..\include\CigiRateCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiSensorCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiSensorRespV1.h" />
+    <ClInclude Include="..\..\include\CigiSOFV1.h" />
+    <ClInclude Include="..\..\include\CigiSpecEffDefV1.h" />
+    <ClInclude Include="..\..\include\CigiTrajectoryDefV1.h" />
+    <ClInclude Include="..\..\include\CigiViewCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiViewDefV1.h" />
+    <ClInclude Include="..\..\include\CigiWeatherCtrlV1.h" />
+    <ClInclude Include="..\..\include\CigiArtPartCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegDefV2.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegRespV2.h" />
+    <ClInclude Include="..\..\include\CigiCollDetVolDefV2.h" />
+    <ClInclude Include="..\..\include\CigiCollDetVolRespV2.h" />
+    <ClInclude Include="..\..\include\CigiCompCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiEntityCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiEnvCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiHatReqV2.h" />
+    <ClInclude Include="..\..\include\CigiHatRespV2.h" />
+    <ClInclude Include="..\..\include\CigiHotReqV2.h" />
+    <ClInclude Include="..\..\include\CigiHotRespV2.h" />
+    <ClInclude Include="..\..\include\CigiIGCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiIGMsgV2.h" />
+    <ClInclude Include="..\..\include\CigiLosRespV2.h" />
+    <ClInclude Include="..\..\include\CigiLosSegReqV2.h" />
+    <ClInclude Include="..\..\include\CigiLosVectReqV2.h" />
+    <ClInclude Include="..\..\include\CigiRateCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiSensorCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiSensorRespV2.h" />
+    <ClInclude Include="..\..\include\CigiSOFV2.h" />
+    <ClInclude Include="..\..\include\CigiSpecEffDefV2.h" />
+    <ClInclude Include="..\..\include\CigiTrajectoryDefV2.h" />
+    <ClInclude Include="..\..\include\CigiViewCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiViewDefV2.h" />
+    <ClInclude Include="..\..\include\CigiWeatherCtrlV2.h" />
+    <ClInclude Include="..\..\include\CigiAerosolRespV3.h" />
+    <ClInclude Include="..\..\include\CigiAnimationStopV3.h" />
+    <ClInclude Include="..\..\include\CigiArtPartCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiAtmosCtrl.h" />
+    <ClInclude Include="..\..\include\CigiCelestialCtrl.h" />
+    <ClInclude Include="..\..\include\CigiCircleSymbolDataV3_3.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegDefV3.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegRespV3.h" />
+    <ClInclude Include="..\..\include\CigiCollDetVolDefV3.h" />
+    <ClInclude Include="..\..\include\CigiCollDetVolRespV3.h" />
+    <ClInclude Include="..\..\include\CigiCompCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiCompCtrlV3_3.h" />
+    <ClInclude Include="..\..\include\CigiConfClampEntityCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiEarthModelDefV3.h" />
+    <ClInclude Include="..\..\include\CigiEntityCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiEntityCtrlV3_3.h" />
+    <ClInclude Include="..\..\include\CigiEnvCondReqV3.h" />
+    <ClInclude Include="..\..\include\CigiEnvRgnCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiEventNotificationV3.h" />
+    <ClInclude Include="..\..\include\CigiHatHotReqV3.h" />
+    <ClInclude Include="..\..\include\CigiHatHotReqV3_2.h" />
+    <ClInclude Include="..\..\include\CigiHatHotRespV3.h" />
+    <ClInclude Include="..\..\include\CigiHatHotRespV3_2.h" />
+    <ClInclude Include="..\..\include\CigiHatHotXRespV3.h" />
+    <ClInclude Include="..\..\include\CigiHatHotXRespV3_2.h" />
+    <ClInclude Include="..\..\include\CigiHoldEnvCtrl.h" />
+    <ClInclude Include="..\..\include\CigiIGCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiIGCtrlV3_2.h" />
+    <ClInclude Include="..\..\include\CigiIGCtrlV3_3.h" />
+    <ClInclude Include="..\..\include\CigiIGMsgV3.h" />
+    <ClInclude Include="..\..\include\CigiLosRespV3.h" />
+    <ClInclude Include="..\..\include\CigiLosRespV3_2.h" />
+    <ClInclude Include="..\..\include\CigiLosSegReqV3.h" />
+    <ClInclude Include="..\..\include\CigiLosSegReqV3_2.h" />
+    <ClInclude Include="..\..\include\CigiLosVectReqV3.h" />
+    <ClInclude Include="..\..\include\CigiLosVectReqV3_2.h" />
+    <ClInclude Include="..\..\include\CigiLosXRespV3.h" />
+    <ClInclude Include="..\..\include\CigiLosXRespV3_2.h" />
+    <ClInclude Include="..\..\include\CigiMaritimeSurfaceCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiMaritimeSurfaceRespV3.h" />
+    <ClInclude Include="..\..\include\CigiMotionTrackCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiPositionReqV3.h" />
+    <ClInclude Include="..\..\include\CigiPositionRespV3.h" />
+    <ClInclude Include="..\..\include\CigiRateCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiRateCtrlV3_2.h" />
+    <ClInclude Include="..\..\include\CigiSensorCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiSensorRespV3.h" />
+    <ClInclude Include="..\..\include\CigiSensorXRespV3.h" />
+    <ClInclude Include="..\..\include\CigiShortArtPartCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiShortCompCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiShortCompCtrlV3_3.h" />
+    <ClInclude Include="..\..\include\CigiShortSymbolCtrlV3_3.h" />
+    <ClInclude Include="..\..\include\CigiSOFV3.h" />
+    <ClInclude Include="..\..\include\CigiSOFV3_2.h" />
+    <ClInclude Include="..\..\include\CigiSymbolCircleDefV3_3.h" />
+    <ClInclude Include="..\..\include\CigiSymbolCloneV3_3.h" />
+    <ClInclude Include="..\..\include\CigiSymbolCtrlV3_3.h" />
+    <ClInclude Include="..\..\include\CigiSymbolLineDefV3_3.h" />
+    <ClInclude Include="..\..\include\CigiSymbolSurfaceDefV3_3.h" />
+    <ClInclude Include="..\..\include\CigiSymbolTextDefV3_3.h" />
+    <ClInclude Include="..\..\include\CigiTerrestrialSurfaceCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiTerrestrialSurfaceRespV3.h" />
+    <ClInclude Include="..\..\include\CigiTrajectoryDefV3.h" />
+    <ClInclude Include="..\..\include\CigiTypes_MSVS_Win32.h" />
+    <ClInclude Include="..\..\include\CigiVertexSymbolDataV3_3.h" />
+    <ClInclude Include="..\..\include\CigiViewCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiViewDefV3.h" />
+    <ClInclude Include="..\..\include\CigiWaveCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiWeatherCondRespV3.h" />
+    <ClInclude Include="..\..\include\CigiWeatherCtrlV3.h" />
+    <ClInclude Include="..\..\include\CigiAccelerationCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiAerosolRespV4.h" />
+    <ClInclude Include="..\..\include\CigiAnimationCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiAnimationStopV4.h" />
+    <ClInclude Include="..\..\include\CigiArtPartCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiAtmosCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiCelestialCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiCircleSymbolDataV4.h" />
+    <ClInclude Include="..\..\include\CigiCircleSymbolTextureDataV4.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegDefV4.h" />
+    <ClInclude Include="..\..\include\CigiCollDetSegRespV4.h" />
+    <ClInclude Include="..\..\include\CigiCollDetVolDefV4.h" />
+    <ClInclude Include="..\..\include\CigiCollDetVolRespV4.h" />
+    <ClInclude Include="..\..\include\CigiCompCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiConfClampEntityCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiEarthModelDefV4.h" />
+    <ClInclude Include="..\..\include\CigiEntityCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiEntityPositionCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiEnvCondReqV4.h" />
+    <ClInclude Include="..\..\include\CigiEnvRgnCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiEventNotificationV4.h" />
+    <ClInclude Include="..\..\include\CigiHatHotReqV4.h" />
+    <ClInclude Include="..\..\include\CigiHatHotRespV4.h" />
+    <ClInclude Include="..\..\include\CigiHatHotXRespV4.h" />
+    <ClInclude Include="..\..\include\CigiIGCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiIGMsgV4.h" />
+    <ClInclude Include="..\..\include\CigiLosRespV4.h" />
+    <ClInclude Include="..\..\include\CigiLosSegReqV4.h" />
+    <ClInclude Include="..\..\include\CigiLosVectReqV4.h" />
+    <ClInclude Include="..\..\include\CigiLosXRespV4.h" />
+    <ClInclude Include="..\..\include\CigiMaritimeSurfaceCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiMaritimeSurfaceRespV4.h" />
+    <ClInclude Include="..\..\include\CigiMotionTrackCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiPositionReqV4.h" />
+    <ClInclude Include="..\..\include\CigiPositionRespV4.h" />
+    <ClInclude Include="..\..\include\CigiSensorCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiSensorRespV4.h" />
+    <ClInclude Include="..\..\include\CigiSensorXRespV4.h" />
+    <ClInclude Include="..\..\include\CigiShortArtPartCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiShortCompCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiShortSymbolCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiSOFV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolCircleDefV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolCloneV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolPolygonDefV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolSurfaceDefV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolTextDefV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolTexturedCircleDefV4.h" />
+    <ClInclude Include="..\..\include\CigiSymbolTexturedPolygonDefV4.h" />
+    <ClInclude Include="..\..\include\CigiTerrestrialSurfaceCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiTerrestrialSurfaceRespV4.h" />
+    <ClInclude Include="..\..\include\CigiVelocityCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiVertexSymbolDataV4.h" />
+    <ClInclude Include="..\..\include\CigiVertexSymbolTextureDataV4.h" />
+    <ClInclude Include="..\..\include\CigiViewCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiViewDefV4.h" />
+    <ClInclude Include="..\..\include\CigiWaveCtrlV4.h" />
+    <ClInclude Include="..\..\include\CigiWeatherCondRespV4.h" />
+    <ClInclude Include="..\..\include\CigiWeatherCtrlV4.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0B88FB5-7583-4546-A898-70821569969A}</ProjectGuid>
+    <SccProjectName />
+    <SccLocalPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMD|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMD|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='libDebugMTLIB|x64'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMD|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|Win32'">.\..\..\bin\libReleaseMT\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|Win32'">.\..\..\bin\libReleaseMD\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|x64'">.\..\..\bin\libReleaseMT_x64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|x64'">.\..\..\bin\libReleaseMD_x64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|Win32'">temp\libReleaseMT\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|Win32'">temp\libReleaseMD\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|x64'">x64\libReleaseMT_x64\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|x64'">x64\libReleaseMD_x64\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libDebugMT|Win32'">.\..\..\bin\libDebugMT\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libDebugMD|Win32'">.\..\..\bin\libDebugMD\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libDebugMT|x64'">.\..\..\bin\libDebugMT_x64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libDebugMD|x64'">.\..\..\bin\libDebugMD_x64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libDebugMT|Win32'">temp\libDebugMT\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libDebugMD|Win32'">temp\libDebugMD\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libDebugMT|x64'">x64\libDebugMT_x64\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libDebugMD|x64'">x64\libDebugMD_x64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='libDebugMT|x64'">$(ProjectName)D_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='libDebugMD|x64'">$(ProjectName)D_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|x64'">$(ProjectName)_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|x64'">$(ProjectName)_x64</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='libDebugMTLIB|x64'">.\..\..\bin\libDebugMT_x64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='libDebugMTLIB|x64'">temp\libDebugMT_x64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='libDebugMTLIB|x64'">$(ProjectName)_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='libDebugMT|Win32'">$(ProjectName)D</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='libDebugMD|Win32'">$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libReleaseMT\ccl_lib.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libReleaseMD\ccl_lib.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMT|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libReleaseMT_x64\ccl_lib_x64.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libReleaseMD|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libReleaseMD_x64\ccl_lib_x64.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMT|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libDebugMT\ccl_libD.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMD|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libDebugMD\ccl_libD.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMT|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libDebugMT_x64\ccl_libD_x64.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMD|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libDebugMD_x64\ccl_libD_x64.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='libDebugMTLIB|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CIGI_LITTLE_ENDIAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>
+      </StringPooling>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AssemblerListingLocation>temp\libDebugMT_x64\</AssemblerListingLocation>
+      <ObjectFileName>temp\libDebugMT_x64\</ObjectFileName>
+      <ProgramDataBaseFileName>temp\libDebugMT_x64\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>.\..\..\bin\libDebugMT_x64\ccl_lib.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
