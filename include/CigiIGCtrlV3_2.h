@@ -112,6 +112,7 @@ public:
    //!
    int SetFrameCntr(const Cigi_uint32 FrameCntrIn, bool bndchk=true)
    {
+      bndchk;
       FrameCntr = FrameCntrIn;
 
       return(CIGI_SUCCESS);
@@ -157,6 +158,7 @@ public:
    //!
 	int SetTimeStampValid(const bool TimeStampValidIn, bool bndchk=true)
    {
+      bndchk;
       TimestampValid = TimeStampValidIn;
 
       return(CIGI_SUCCESS);
@@ -181,6 +183,7 @@ public:
    //!
    int SetLastRcvdIGFrame(const Cigi_uint32 LastRcvdIGFrameIn, bool bndchk=true)
    {
+      bndchk;
       LastRcvdIGFrame = LastRcvdIGFrameIn;
 
       return(CIGI_SUCCESS);

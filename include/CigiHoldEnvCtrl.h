@@ -121,7 +121,7 @@ public:
    //! \return This returns CIGI_SUCCESS or an error code 
    //!   defined in CigiErrorCodes.h
    //!
-   virtual int Pack(CigiBasePacket * Base, Cigi_uint8 * Buff, void *Spec) const { return(0); }
+   virtual int Pack(CigiBasePacket * Base, Cigi_uint8 * Buff, void *Spec) const { Base; Buff; Spec; return(0); }
    //=========================================================
    //! The virtual Unpack function for CIGI 4
    //! \param Buff - A pointer to the current pack point.
@@ -133,7 +133,7 @@ public:
    //! \return This returns CIGI_SUCCESS or an error code 
    //!   defined in CigiErrorCodes.h
    //!
-   virtual int Unpack(Cigi_uint8 * Buff, bool Swap, void *Spec) { return(0); }
+   virtual int Unpack(Cigi_uint8 * Buff, bool Swap, void *Spec) { Buff; Swap; Spec; return(0); }
 
 
    //==> Hold Object Manipulation
@@ -142,7 +142,7 @@ public:
    //! A virtual FillHold function.  
    //! This function is not implemented in this class.
    //!
-   virtual void FillHold(CigiBaseEnvCtrl * Hold) const  { };
+   virtual void FillHold(CigiBaseEnvCtrl * Hold) const  { Hold;};
 
    //==> ID & Size Manipulation
 

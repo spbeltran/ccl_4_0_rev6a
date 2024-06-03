@@ -455,6 +455,7 @@ public:
    //!
    int SetReaderCigiVersion(const int CigiVersionIn, bool bndchk=true)
    {
+      bndchk;
       CigiVersionID tVer(CigiVersionIn,0);
       SetReaderVersion(tVer);
       return(CIGI_SUCCESS);
@@ -473,6 +474,7 @@ public:
    //!
    int SetReaderCigiVersion(const int CigiVersionIn, const int CigiMinorVersionIn, bool bndchk=true)
    {
+      bndchk;
       CigiVersionID tVer(CigiVersionIn,CigiMinorVersionIn);
       SetReaderVersion(tVer);
       return(CIGI_SUCCESS);

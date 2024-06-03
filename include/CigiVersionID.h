@@ -137,7 +137,7 @@ public:
          }
          else if(CigiMajorVersion == 4)
          {
-            if((CigiMinorVersion == 0) && (CigiMinorVersion == 0))
+            if((CigiMinorVersion == 0) /*&& (CigiMinorVersion == 0)*/)
                KnownVer = true;
          }
       }

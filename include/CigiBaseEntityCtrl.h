@@ -279,6 +279,7 @@ public:
    //!
 	int SetEntityID(const Cigi_uint16 EntityIDIn, bool bndchk=true)
    {
+      bndchk;
       EntityID = EntityIDIn;
       return(CIGI_SUCCESS);
    }
@@ -305,6 +306,7 @@ public:
    //!
 	int SetEntityType(const Cigi_uint16 EntityTypeIn, bool bndchk=true)
    {
+      bndchk;
       EntityType = EntityTypeIn;
       return(CIGI_SUCCESS);
    }

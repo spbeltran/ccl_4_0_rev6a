@@ -91,7 +91,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnIGCtrl(CigiBasePacket *Packet) { };
+   virtual void OnIGCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnArtPartCtrl<br>
@@ -100,7 +100,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnArtPartCtrl(CigiBasePacket *Packet) { };
+   virtual void OnArtPartCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnAtmosCtrl<br>
@@ -109,7 +109,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnAtmosCtrl(CigiBasePacket *Packet) { };
+   virtual void OnAtmosCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnCelestialCtrl<br>
@@ -118,7 +118,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnCelestialCtrl(CigiBasePacket *Packet) { };
+   virtual void OnCelestialCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnCollDetSegDef<br>
@@ -127,7 +127,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnCollDetSegDef(CigiBasePacket *Packet) { };
+   virtual void OnCollDetSegDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnCollDetVolDef<br>
@@ -136,7 +136,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnCollDetVolDef(CigiBasePacket *Packet) { };
+   virtual void OnCollDetVolDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnCompCtrl<br>
@@ -145,7 +145,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnCompCtrl(CigiBasePacket *Packet) { };
+   virtual void OnCompCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnConfClampEntityCtrl<br>
@@ -154,7 +154,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnConfClampEntityCtrl(CigiBasePacket *Packet) { };
+   virtual void OnConfClampEntityCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnEarthModelDef<br>
@@ -163,7 +163,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnEarthModelDef(CigiBasePacket *Packet) { };
+   virtual void OnEarthModelDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnEntityCtrl<br>
@@ -172,7 +172,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnEntityCtrl(CigiBasePacket *Packet) { };
+   virtual void OnEntityCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnEnvCondReq<br>
@@ -181,7 +181,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnEnvCondReq(CigiBasePacket *Packet) { };
+   virtual void OnEnvCondReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnEnvCtrl<br>
@@ -190,7 +190,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnEnvCtrl(CigiBasePacket *Packet) { };
+   virtual void OnEnvCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnEnvRgnCtrl<br>
@@ -199,7 +199,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnEnvRgnCtrl(CigiBasePacket *Packet) { };
+   virtual void OnEnvRgnCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHatReq<br>
@@ -208,7 +208,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHatReq(CigiBasePacket *Packet) { };
+   virtual void OnHatReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHatHotReq<br>
@@ -217,7 +217,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHatHotReq(CigiBasePacket *Packet) { };
+   virtual void OnHatHotReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHatHotXReq<br>
@@ -226,7 +226,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHatHotXReq(CigiBasePacket *Packet) { };
+   virtual void OnHatHotXReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHotReq<br>
@@ -235,7 +235,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHotReq(CigiBasePacket *Packet) { };
+   virtual void OnHotReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnLosSegReq<br>
@@ -244,7 +244,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnLosSegReq(CigiBasePacket *Packet) { };
+   virtual void OnLosSegReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnLosVectReq<br>
@@ -253,7 +253,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnLosVectReq(CigiBasePacket *Packet) { };
+   virtual void OnLosVectReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnMaritimeSurfaceCtrl<br>
@@ -262,7 +262,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnMaritimeSurfaceCtrl(CigiBasePacket *Packet) { };
+   virtual void OnMaritimeSurfaceCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnMotionTrackCtrl<br>
@@ -271,7 +271,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnMotionTrackCtrl(CigiBasePacket *Packet) { };
+   virtual void OnMotionTrackCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnPostionReq<br>
@@ -280,7 +280,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnPostionReq(CigiBasePacket *Packet) { };
+   virtual void OnPostionReq(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnRateCtrl<br>
@@ -289,7 +289,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnRateCtrl(CigiBasePacket *Packet) { };
+   virtual void OnRateCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSensorCtrl<br>
@@ -298,7 +298,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSensorCtrl(CigiBasePacket *Packet) { };
+   virtual void OnSensorCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnShortArtPartCtrl<br>
@@ -307,7 +307,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnShortArtPartCtrl(CigiBasePacket *Packet) { };
+   virtual void OnShortArtPartCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnIGMsg<br>
@@ -317,7 +317,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnShortCompCtrl(CigiBasePacket *Packet) { };
+   virtual void OnShortCompCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnShortSymbolCtrl<br>
@@ -326,7 +326,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnShortSymbolCtrl(CigiBasePacket *Packet) { };
+   virtual void OnShortSymbolCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSpecEffDef<br>
@@ -335,7 +335,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSpecEffDef(CigiBasePacket *Packet) { };
+   virtual void OnSpecEffDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolCircleDef<br>
@@ -344,7 +344,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolCircleDef(CigiBasePacket *Packet) { };
+   virtual void OnSymbolCircleDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolClone<br>
@@ -353,7 +353,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolClone(CigiBasePacket *Packet) { };
+   virtual void OnSymbolClone(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolCtrl<br>
@@ -362,7 +362,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolCtrl(CigiBasePacket *Packet) { };
+   virtual void OnSymbolCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolLineDef<br>
@@ -371,7 +371,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolLineDef(CigiBasePacket *Packet) { };
+   virtual void OnSymbolLineDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolTextDef<br>
@@ -380,7 +380,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolTextDef(CigiBasePacket *Packet) { };
+   virtual void OnSymbolTextDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolSurfaceDef<br>
@@ -389,7 +389,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolSurfaceDef(CigiBasePacket *Packet) { };
+   virtual void OnSymbolSurfaceDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnTerrestrialSurfaceCtrl<br>
@@ -398,7 +398,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnTerrestrialSurfaceCtrl(CigiBasePacket *Packet) { };
+   virtual void OnTerrestrialSurfaceCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnTrajectory<br>
@@ -407,7 +407,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnTrajectory(CigiBasePacket *Packet) { };
+   virtual void OnTrajectory(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnViewCtrl<br>
@@ -416,7 +416,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnViewCtrl(CigiBasePacket *Packet) { };
+   virtual void OnViewCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnViewDef<br>
@@ -425,7 +425,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnViewDef(CigiBasePacket *Packet) { };
+   virtual void OnViewDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnWaveCtrl<br>
@@ -434,7 +434,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnWaveCtrl(CigiBasePacket *Packet) { };
+   virtual void OnWaveCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnWeatherCtrl<br>
@@ -443,7 +443,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnWeatherCtrl(CigiBasePacket *Packet) { };
+   virtual void OnWeatherCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnVelocityCtrl<br>
@@ -452,7 +452,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnVelocityCtrl(CigiBasePacket *Packet) { };
+   virtual void OnVelocityCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnAccelerationCtrl<br>
@@ -461,7 +461,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnAccelerationCtrl(CigiBasePacket *Packet) { };
+   virtual void OnAccelerationCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolPolygonDef<br>
@@ -471,7 +471,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolPolygonDef(CigiBasePacket *Packet) { };
+   virtual void OnSymbolPolygonDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolTexturedCircleDef<br>
@@ -481,7 +481,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolTexturedCircleDef(CigiBasePacket *Packet) { };
+   virtual void OnSymbolTexturedCircleDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSymbolTexturedPolygonDef<br>
@@ -491,7 +491,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSymbolTexturedPolygonDef(CigiBasePacket *Packet) { };
+   virtual void OnSymbolTexturedPolygonDef(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnEntityPositionCtrl<br>
@@ -501,7 +501,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnEntityPositionCtrl(CigiBasePacket *Packet) { };
+   virtual void OnEntityPositionCtrl(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnAnimationControl<br>
@@ -511,7 +511,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnAnimationControl(CigiBasePacket *Packet) { };
+   virtual void OnAnimationControl(CigiBasePacket *Packet) {Packet;};
 
 
    //==+> IG to Host
@@ -523,7 +523,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSOF(CigiBasePacket *Packet) { };
+   virtual void OnSOF(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnAerosolResp<br>
@@ -532,7 +532,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnAerosolResp(CigiBasePacket *Packet) { };
+   virtual void OnAerosolResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnAnimationStop<br>
@@ -541,7 +541,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnAnimationStop(CigiBasePacket *Packet) { };
+   virtual void OnAnimationStop(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnCollDetSegResp<br>
@@ -550,7 +550,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnCollDetSegResp(CigiBasePacket *Packet) { };
+   virtual void OnCollDetSegResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnCollDetVolResp<br>
@@ -559,7 +559,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnCollDetVolResp(CigiBasePacket *Packet) { };
+   virtual void OnCollDetVolResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnEventNotification<br>
@@ -568,7 +568,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnEventNotification(CigiBasePacket *Packet) { };
+   virtual void OnEventNotification(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHatResp<br>
@@ -577,7 +577,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHatResp(CigiBasePacket *Packet) { };
+   virtual void OnHatResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHatHotResp<br>
@@ -586,7 +586,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHatHotResp(CigiBasePacket *Packet) { };
+   virtual void OnHatHotResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHatHotXResp<br>
@@ -595,7 +595,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHatHotXResp(CigiBasePacket *Packet) { };
+   virtual void OnHatHotXResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnHotResp<br>
@@ -604,7 +604,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnHotResp(CigiBasePacket *Packet) { };
+   virtual void OnHotResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnIGMsg<br>
@@ -613,7 +613,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnIGMsg(CigiBasePacket *Packet) { };
+   virtual void OnIGMsg(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnLosResp<br>
@@ -622,7 +622,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnLosResp(CigiBasePacket *Packet) { };
+   virtual void OnLosResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnLosXResp<br>
@@ -631,7 +631,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnLosXResp(CigiBasePacket *Packet) { };
+   virtual void OnLosXResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnMaritimeSurfaceResp<br>
@@ -640,7 +640,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnMaritimeSurfaceResp(CigiBasePacket *Packet) { };
+   virtual void OnMaritimeSurfaceResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnPositionResp<br>
@@ -649,7 +649,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnPositionResp(CigiBasePacket *Packet) { };
+   virtual void OnPositionResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSensorResp<br>
@@ -658,7 +658,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSensorResp(CigiBasePacket *Packet) { };
+   virtual void OnSensorResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnSensorXResp<br>
@@ -667,7 +667,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnSensorXResp(CigiBasePacket *Packet) { };
+   virtual void OnSensorXResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnTerrestrialSurfaceResp<br>
@@ -676,7 +676,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnTerrestrialSurfaceResp(CigiBasePacket *Packet) { };
+   virtual void OnTerrestrialSurfaceResp(CigiBasePacket *Packet) {Packet;};
 
    //=========================================================
    //! OnWeatherCondResp<br>
@@ -685,7 +685,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnWeatherCondResp(CigiBasePacket *Packet) { };
+   virtual void OnWeatherCondResp(CigiBasePacket *Packet) {Packet;};
 
 
 
@@ -698,7 +698,7 @@ public:
    //! If processing is required, the inheriting class must
    //!   implement this call.
    //!
-   virtual void OnUnrecognized(CigiBasePacket *Packet) { };
+   virtual void OnUnrecognized(CigiBasePacket *Packet) {Packet;};
 
 };
 

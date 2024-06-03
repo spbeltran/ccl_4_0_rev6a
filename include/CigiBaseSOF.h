@@ -234,6 +234,7 @@ public:
    //!
 	int SetDatabaseID(const Cigi_int8 DataBaseIDIn, bool bndchk=true)
    {
+      bndchk;
       DatabaseID = DataBaseIDIn;
 
       return(CIGI_SUCCESS);
@@ -258,6 +259,7 @@ public:
    //!
    int SetFrameCntr(const Cigi_uint32 FrameCntrIn, bool bndchk=true)
    {
+      bndchk;
       FrameCntr = FrameCntrIn;
 
       return(CIGI_SUCCESS);
@@ -313,6 +315,7 @@ public:
    //!
    int SetIGStatus(Cigi_uint8 IGStatusIn, bool bndchk=true)
    {
+      bndchk;
       IGStatus = IGStatusIn;
 
       return(CIGI_SUCCESS);

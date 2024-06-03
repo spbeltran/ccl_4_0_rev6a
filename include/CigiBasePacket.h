@@ -135,6 +135,7 @@ public:
 	virtual int GetCnvt(CigiVersionID &CnvtVersion,
                        CigiCnvtInfoType::Type &CnvtInfo)
    {
+      CnvtVersion;
       CnvtInfo.ProcID = (PacketID == 0 ? CigiProcessType::ProcNone : CigiProcessType::ProcStd);
       CnvtInfo.CnvtPacketID = PacketID;
 

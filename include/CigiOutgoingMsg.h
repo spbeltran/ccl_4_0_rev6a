@@ -542,7 +542,7 @@ public:
    //!   true - Synchronous operation.
    //!   false - Asynchronous operation.
    //!
-   void SetSynchronous(const bool Sync) { };
+   void SetSynchronous(const bool Sync) {Sync;};
 
    //=========================================================
    //! Gets the synchronous/asynchronous mode of operation.

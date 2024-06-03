@@ -120,6 +120,7 @@ public:
    //!
    int SetAlpha(const Cigi_uint8 AlphaIn, bool bndchk=true)
    {
+      bndchk;
       Alpha = AlphaIn;
       Opacity = ((float)Alpha)/2.55f;
       return(CIGI_SUCCESS);
@@ -147,6 +148,7 @@ public:
    //!
    int SetParentID(const Cigi_uint16 ParentIDIn, bool bndchk = true)
    {
+       bndchk;
        ParentID = ParentIDIn;
        return(CIGI_SUCCESS);
    }
@@ -235,6 +237,7 @@ public:
    //!
    int SetXoff(const double Xoff, bool bndchk = true)
    {
+       bndchk;
        LatOrXoff = Xoff;
        return(CIGI_SUCCESS);
    }
@@ -281,6 +284,7 @@ public:
    //!
    int SetYoff(const double Yoff, bool bndchk = true)
    {
+       bndchk;
        LonOrYoff = Yoff;
        return(CIGI_SUCCESS);
    }
@@ -350,6 +354,7 @@ public:
    //!
 	int SetAlt(const double Alt, bool bndchk=true)
    {
+      bndchk;
       AltOrZoff = Alt;
       return(CIGI_SUCCESS);
    }
@@ -374,6 +379,7 @@ public:
    //!
 	int SetZoff(const double Zoff, bool bndchk=true)
    {
+      bndchk;
       AltOrZoff = (double)Zoff;
       return(CIGI_SUCCESS);
    }
@@ -556,6 +562,7 @@ public:
    //!
 	int SetSmoothingEn(const bool SmoothingEnabled, bool bndchk=true)
    {
+      bndchk;
       SmoothingEn = SmoothingEnabled;
 
       return(CIGI_SUCCESS);

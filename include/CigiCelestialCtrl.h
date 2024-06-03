@@ -215,6 +215,7 @@ public:
    //!   defined in CigiErrorCodes.h
    int SetYear(const Cigi_uint16 YearIn, bool bndchk=true)
    {
+      bndchk;
       Year = YearIn;
       return(CIGI_SUCCESS);
    }
@@ -253,6 +254,7 @@ public:
    //!   defined in CigiErrorCodes.h
    int SetEphemerisEn(const bool EphemerisEnIn, bool bndchk=true)
    {
+      bndchk;
       EphemerisEn = EphemerisEnIn;
       return(CIGI_SUCCESS);
    }
@@ -274,6 +276,7 @@ public:
    //!   defined in CigiErrorCodes.h
    int SetSunEn(const bool SunEnIn, bool bndchk=true)
    {
+      bndchk;
       SunEn = SunEnIn;
       return(CIGI_SUCCESS);
    }
@@ -295,6 +298,7 @@ public:
    //!   defined in CigiErrorCodes.h
    int SetMoonEn(const bool MoonEnIn, bool bndchk=true)
    {
+      bndchk;
       MoonEn = MoonEnIn;
       return(CIGI_SUCCESS);
    }
@@ -316,6 +320,7 @@ public:
    //!   defined in CigiErrorCodes.h
    int SetStarEn(const bool StarEnIn, bool bndchk=true)
    {
+      bndchk;
       StarEn = StarEnIn;
       return(CIGI_SUCCESS);
    }
@@ -337,6 +342,7 @@ public:
    //!   defined in CigiErrorCodes.h
    int SetDateVld(const bool DateVldIn, bool bndchk=true)
    {
+      bndchk;
       DateVld = DateVldIn;
       return(CIGI_SUCCESS);
    }
